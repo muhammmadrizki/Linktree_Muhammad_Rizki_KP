@@ -1,0 +1,63 @@
+body {
+  background-color: #c3e2d0;
+
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 50 px;
+}
+
+.foto-profil {
+  display: block;
+
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  max-width: 200px;
+  height: auto;
+
+  border-radius: 50%;
+}
+
+.nama {
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.url {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-width: 1px;
+  padding: 30px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .foto-profil .nama .url .footer {
+    width: 100%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
